@@ -1,0 +1,46 @@
+:root {
+  font-size: 62.5%;
+}
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  list-style: none;
+  text-decoration: none;
+}
+body {
+  font-size: 1.6rem;
+  text-align: center;
+  background: black;
+}
+
+header {
+  background: url(./assets/header-background.png);
+}
+
+header img {
+  margin: 9.9rem auto 8.2rem;
+}
+
+nav{
+  color: white;
+  padding-top: 8rem;
+}
+nav ul {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  gap: 2rem;
+}
+nav ul li {
+  border: solid #f9ff00 1px;
+  border-radius: 25%;
+  padding: .8rem;
+}
+
+nav ul li:hover{
+  background-color: #f9ff00;
+  color: black;
+}
+
+
